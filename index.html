@@ -1,0 +1,1037 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OneShot Resource Archive</title>
+    <style>
+        :root {
+            --bg: #0f0a14;
+            --panel: rgba(30, 20, 40, 0.7);
+            --pink: #ff79c6;
+            --purple: #bd93f9;
+            --text: #f8f8f2;
+            --border: rgba(255, 121, 198, 0.2);
+        }
+        body {
+            background-color: var(--bg);
+            background-image: radial-gradient(circle at 20% 30%, rgba(189, 147, 249, 0.1) 0%, transparent 40%);
+            color: var(--text);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 2rem;
+            margin: 0;
+        }
+        header { border-bottom: 1px solid var(--pink); margin-bottom: 3rem; padding-bottom: 1rem; }
+        h1 { color: var(--pink); text-transform: uppercase; letter-spacing: 0.3rem; margin: 0; }
+        
+        .character-block { margin-bottom: 4rem; }
+        .character-header {
+            color: var(--purple);
+            font-size: 1.4rem;
+            border-left: 4px solid var(--purple);
+            padding-left: 15px;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .emote-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 1.5rem;
+        }
+        .emote-card {
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            transition: transform 0.2s, border-color 0.2s;
+        }
+        .emote-card:hover { 
+            border-color: var(--pink); 
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+        .emote-card img {
+            width: 96px; 
+            height: 96px;
+            image-rendering: pixelated;
+            display: block;
+            margin: 0 auto;
+        }
+        .emote-name { 
+            font-size: 0.7rem; 
+            display: block; 
+            margin-top: 8px; 
+            opacity: 0.8; 
+            word-wrap: break-word;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <header><h1>OneShot Resource Archive</h1></header>
+    <main>
+        <section class="character-block">
+            <div class="character-header">af</div>
+            <div class="emote-grid">
+                <div class="emote-card">
+                    <img src="af/af.png">
+                    <span class="emote-name">af</span>
+                </div>
+            </div>
+        </section>
+        <section class="character-block">
+            <div class="character-header">alula</div>
+            <div class="emote-grid">
+                <div class="emote-card">
+                    <img src="alula/alula.png">
+                    <span class="emote-name">alula</span>
+                </div>
+                <div class="emote-card">
+                    <img src="alula/alula_gasp.png">
+                    <span class="emote-name">alula_gasp</span>
+                </div>
+                <div class="emote-card">
+                    <img src="alula/alula_gasp2.png">
+                    <span class="emote-name">alula_gasp2</span>
+                </div>
+                <div class="emote-card">
+                    <img src="alula/alula_oh.png">
+                    <span class="emote-name">alula_oh</span>
+                </div>
+                <div class="emote-card">
+                    <img src="alula/alula_pout.png">
+                    <span class="emote-name">alula_pout</span>
+                </div>
+                <div class="emote-card">
+                    <img src="alula/alula_speak.png">
+                    <span class="emote-name">alula_speak</span>
+                </div>
+            </div>
+        </section>
+        <section class="character-block">
+            <div class="character-header">blank</div>
+            <div class="emote-grid">
+                <div class="emote-card">
+                    <img src="blank/blank.png">
+                    <span class="emote-name">blank</span>
+                </div>
+            </div>
+        </section>
+        <section class="character-block">
+            <div class="character-header">blue</div>
+            <div class="emote-grid">
+                <div class="emote-card">
+                    <img src="blue/blue_gatekeeper.png">
+                    <span class="emote-name">blue_gatekeeper</span>
+                </div>
+            </div>
+        </section>
+        <section class="character-block">
+            <div class="character-header">bookbot</div>
+            <div class="emote-grid">
+                <div class="emote-card">
+                    <img src="bookbot/bookbot.png">
+                    <span class="emote-name">bookbot</span>
+                </div>
+            </div>
+        </section>
+        <section class="character-block">
+            <div class="character-header">calamus</div>
+            <div class="emote-grid">
+                <div class="emote-card">
+                    <img src="calamus/calamus.png">
+                    <span class="emote-name">calamus</span>
+                </div>
+                <div class="emote-card">
+                    <img src="calamus/calamus_heh.png">
+                    <span class="emote-name">calamus_heh</span>
+                </div>
+                <div class="emote-card">
+                    <img src="calamus/calamus_sad.png">
+                    <span class="emote-name">calamus_sad</span>
+                </div>
+                <div class="emote-card">
+                    <img src="calamus/calamus_shame.png">
+                    <span class="emote-name">calamus_shame</span>
+                </div>
+                <div class="emote-card">
+                    <img src="calamus/calamus_shock.png">
+                    <span class="emote-name">calamus_shock</span>
+                </div>
+                <div class="emote-card">
+                    <img src="calamus/calamus_smile.png">
+                    <span class="emote-name">calamus_smile</span>
+                </div>
+                <div class="emote-card">
+                    <img src="calamus/calamus_smile2.png">
+                    <span class="emote-name">calamus_smile2</span>
+                </div>
+                <div class="emote-card">
+                    <img src="calamus/calamus_speak.png">
+                    <span class="emote-name">calamus_speak</span>
+                </div>
+                <div class="emote-card">
+                    <img src="calamus/calamus_unknown.png">
+                    <span class="emote-name">calamus_unknown</span>
+                </div>
+            </div>
+        </section>
+        <section class="character-block">
+            <div class="character-header">cedric</div>
+            <div class="emote-grid">
+                <div class="emote-card">
+                    <img src="cedric/cedric.png">
+                    <span class="emote-name">cedric</span>
+                </div>
+                <div class="emote-card">
+                    <img src="cedric/cedric2.png">
+                    <span class="emote-name">cedric2</span>
+                </div>
+                <div class="emote-card">
+                    <img src="cedric/cedric3.png">
+                    <span class="emote-name">cedric3</span>
+                </div>
+                <div class="emote-card">
+                    <img src="cedric/cedric4.png">
+                    <span class="emote-name">cedric4</span>
+                </div>
+                <div class="emote-card">
+                    <img src="cedric/cedric_eek.png">
+                    <span class="emote-name">cedric_eek</span>
+                </div>
+                <div class="emote-card">
+                    <img src="cedric/cedric_hmm.png">
+                    <span class="emote-name">cedric_hmm</span>
+                </div>
+                <div class="emote-card">
+                    <img src="cedric/cedric_sigh.png">
+                    <span class="emote-name">cedric_sigh</span>
+                </div>
+                <div class="emote-card">
+                    <img src="cedric/cedric_sigh2.png">
+                    <span class="emote-name">cedric_sigh2</span>
+                </div>
+                <div class="emote-card">
+                    <img src="cedric/cedric_smile.png">
+                    <span class="emote-name">cedric_smile</span>
+                </div>
+                <div class="emote-card">
+                    <img src="cedric/cedric_talk.png">
+                    <span class="emote-name">cedric_talk</span>
+                </div>
+                <div class="emote-card">
+                    <img src="cedric/cedric_upset.png">
+                    <span class="emote-name">cedric_upset</span>
+                </div>
+            </div>
+        </section>
+        <section class="character-block">
+            <div class="character-header">en</div>
+            <div class="emote-grid">
+                <div class="emote-card">
+                    <img src="en/en.png">
+                    <span class="emote-name">en</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en2.png">
+                    <span class="emote-name">en2</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en3.png">
+                    <span class="emote-name">en3</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en4.png">
+                    <span class="emote-name">en4</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en5.png">
+                    <span class="emote-name">en5</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en6.png">
+                    <span class="emote-name">en6</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en_83c.png">
+                    <span class="emote-name">en_83c</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en_cry.png">
+                    <span class="emote-name">en_cry</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en_distressed.png">
+                    <span class="emote-name">en_distressed</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en_distressed2.png">
+                    <span class="emote-name">en_distressed2</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en_distressed_meow.png">
+                    <span class="emote-name">en_distressed_meow</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en_distressed_talk.png">
+                    <span class="emote-name">en_distressed_talk</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en_eyeclosed.png">
+                    <span class="emote-name">en_eyeclosed</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en_eyeclosed2.png">
+                    <span class="emote-name">en_eyeclosed2</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en_gasmask.png">
+                    <span class="emote-name">en_gasmask</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en_huh.png">
+                    <span class="emote-name">en_huh</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en_less_sad.png">
+                    <span class="emote-name">en_less_sad</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en_pancakes.png">
+                    <span class="emote-name">en_pancakes</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en_sad.png">
+                    <span class="emote-name">en_sad</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en_shock.png">
+                    <span class="emote-name">en_shock</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en_smile.png">
+                    <span class="emote-name">en_smile</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en_speak.png">
+                    <span class="emote-name">en_speak</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en_surprised.png">
+                    <span class="emote-name">en_surprised</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en_upset.png">
+                    <span class="emote-name">en_upset</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en_upset2.png">
+                    <span class="emote-name">en_upset2</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en_upset_meow.png">
+                    <span class="emote-name">en_upset_meow</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en_what.png">
+                    <span class="emote-name">en_what</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en_what2.png">
+                    <span class="emote-name">en_what2</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en_wtf.png">
+                    <span class="emote-name">en_wtf</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en_wtf2.png">
+                    <span class="emote-name">en_wtf2</span>
+                </div>
+                <div class="emote-card">
+                    <img src="en/en_yawn.png">
+                    <span class="emote-name">en_yawn</span>
+                </div>
+            </div>
+        </section>
+        <section class="character-block">
+            <div class="character-header">george</div>
+            <div class="emote-grid">
+                <div class="emote-card">
+                    <img src="george/george1.png">
+                    <span class="emote-name">george1</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george1_hm.png">
+                    <span class="emote-name">george1_hm</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george1_smile.png">
+                    <span class="emote-name">george1_smile</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george1_smug.png">
+                    <span class="emote-name">george1_smug</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george2.png">
+                    <span class="emote-name">george2</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george2_grr.png">
+                    <span class="emote-name">george2_grr</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george2_no.png">
+                    <span class="emote-name">george2_no</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george2_sigh.png">
+                    <span class="emote-name">george2_sigh</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george2_stress.png">
+                    <span class="emote-name">george2_stress</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george3.png">
+                    <span class="emote-name">george3</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george3_cry.png">
+                    <span class="emote-name">george3_cry</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george3_sad.png">
+                    <span class="emote-name">george3_sad</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george3_sigh.png">
+                    <span class="emote-name">george3_sigh</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george3_worry.png">
+                    <span class="emote-name">george3_worry</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george4.png">
+                    <span class="emote-name">george4</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george4_golly.png">
+                    <span class="emote-name">george4_golly</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george4_omg.png">
+                    <span class="emote-name">george4_omg</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george4_oops.png">
+                    <span class="emote-name">george4_oops</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george4_smile.png">
+                    <span class="emote-name">george4_smile</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george5.png">
+                    <span class="emote-name">george5</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george5_aww.png">
+                    <span class="emote-name">george5_aww</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george5_heh.png">
+                    <span class="emote-name">george5_heh</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george5_hmm.png">
+                    <span class="emote-name">george5_hmm</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george5_sad.png">
+                    <span class="emote-name">george5_sad</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george5_sigh.png">
+                    <span class="emote-name">george5_sigh</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george5_smile.png">
+                    <span class="emote-name">george5_smile</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george6.png">
+                    <span class="emote-name">george6</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george6_fingerguns.png">
+                    <span class="emote-name">george6_fingerguns</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george6_point.png">
+                    <span class="emote-name">george6_point</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george6_shrug.png">
+                    <span class="emote-name">george6_shrug</span>
+                </div>
+                <div class="emote-card">
+                    <img src="george/george6_smile.png">
+                    <span class="emote-name">george6_smile</span>
+                </div>
+            </div>
+        </section>
+        <section class="character-block">
+            <div class="character-header">green</div>
+            <div class="emote-grid">
+                <div class="emote-card">
+                    <img src="green/green_gatekeeper.png">
+                    <span class="emote-name">green_gatekeeper</span>
+                </div>
+            </div>
+        </section>
+        <section class="character-block">
+            <div class="character-header">kelvin</div>
+            <div class="emote-grid">
+                <div class="emote-card">
+                    <img src="kelvin/kelvin.png">
+                    <span class="emote-name">kelvin</span>
+                </div>
+            </div>
+        </section>
+        <section class="character-block">
+            <div class="character-header">kip</div>
+            <div class="emote-grid">
+                <div class="emote-card">
+                    <img src="kip/kip.png">
+                    <span class="emote-name">kip</span>
+                </div>
+                <div class="emote-card">
+                    <img src="kip/kip2.png">
+                    <span class="emote-name">kip2</span>
+                </div>
+                <div class="emote-card">
+                    <img src="kip/kip_heh.png">
+                    <span class="emote-name">kip_heh</span>
+                </div>
+                <div class="emote-card">
+                    <img src="kip/kip_huh.png">
+                    <span class="emote-name">kip_huh</span>
+                </div>
+                <div class="emote-card">
+                    <img src="kip/kip_pout.png">
+                    <span class="emote-name">kip_pout</span>
+                </div>
+                <div class="emote-card">
+                    <img src="kip/kip_sad.png">
+                    <span class="emote-name">kip_sad</span>
+                </div>
+                <div class="emote-card">
+                    <img src="kip/kip_sigh.png">
+                    <span class="emote-name">kip_sigh</span>
+                </div>
+                <div class="emote-card">
+                    <img src="kip/kip_wink.png">
+                    <span class="emote-name">kip_wink</span>
+                </div>
+                <div class="emote-card">
+                    <img src="kip/kip_worry.png">
+                    <span class="emote-name">kip_worry</span>
+                </div>
+            </div>
+        </section>
+        <section class="character-block">
+            <div class="character-header">ling</div>
+            <div class="emote-grid">
+                <div class="emote-card">
+                    <img src="ling/ling.png">
+                    <span class="emote-name">ling</span>
+                </div>
+                <div class="emote-card">
+                    <img src="ling/ling2.png">
+                    <span class="emote-name">ling2</span>
+                </div>
+                <div class="emote-card">
+                    <img src="ling/ling3.png">
+                    <span class="emote-name">ling3</span>
+                </div>
+                <div class="emote-card">
+                    <img src="ling/ling_hm.png">
+                    <span class="emote-name">ling_hm</span>
+                </div>
+                <div class="emote-card">
+                    <img src="ling/ling_hm2.png">
+                    <span class="emote-name">ling_hm2</span>
+                </div>
+                <div class="emote-card">
+                    <img src="ling/ling_oh.png">
+                    <span class="emote-name">ling_oh</span>
+                </div>
+                <div class="emote-card">
+                    <img src="ling/ling_shock.png">
+                    <span class="emote-name">ling_shock</span>
+                </div>
+                <div class="emote-card">
+                    <img src="ling/ling_sigh.png">
+                    <span class="emote-name">ling_sigh</span>
+                </div>
+                <div class="emote-card">
+                    <img src="ling/ling_smile.png">
+                    <span class="emote-name">ling_smile</span>
+                </div>
+            </div>
+        </section>
+        <section class="character-block">
+            <div class="character-header">magpie</div>
+            <div class="emote-grid">
+                <div class="emote-card">
+                    <img src="magpie/magpie.png">
+                    <span class="emote-name">magpie</span>
+                </div>
+                <div class="emote-card">
+                    <img src="magpie/magpie_hm.png">
+                    <span class="emote-name">magpie_hm</span>
+                </div>
+                <div class="emote-card">
+                    <img src="magpie/magpie_oh.png">
+                    <span class="emote-name">magpie_oh</span>
+                </div>
+                <div class="emote-card">
+                    <img src="magpie/magpie_smile.png">
+                    <span class="emote-name">magpie_smile</span>
+                </div>
+            </div>
+        </section>
+        <section class="character-block">
+            <div class="character-header">maize</div>
+            <div class="emote-grid">
+                <div class="emote-card">
+                    <img src="maize/maize.png">
+                    <span class="emote-name">maize</span>
+                </div>
+                <div class="emote-card">
+                    <img src="maize/maize_smile1.png">
+                    <span class="emote-name">maize_smile1</span>
+                </div>
+                <div class="emote-card">
+                    <img src="maize/maize_smile2.png">
+                    <span class="emote-name">maize_smile2</span>
+                </div>
+                <div class="emote-card">
+                    <img src="maize/maize_strain.png">
+                    <span class="emote-name">maize_strain</span>
+                </div>
+                <div class="emote-card">
+                    <img src="maize/maize_stress.png">
+                    <span class="emote-name">maize_stress</span>
+                </div>
+                <div class="emote-card">
+                    <img src="maize/maize_thisisfine.png">
+                    <span class="emote-name">maize_thisisfine</span>
+                </div>
+            </div>
+        </section>
+        <section class="character-block">
+            <div class="character-header">mason</div>
+            <div class="emote-grid">
+                <div class="emote-card">
+                    <img src="mason/mason.png">
+                    <span class="emote-name">mason</span>
+                </div>
+            </div>
+        </section>
+        <section class="character-block">
+            <div class="character-header">niko</div>
+            <div class="emote-grid">
+                <div class="emote-card">
+                    <img src="niko/niko.png">
+                    <span class="emote-name">niko</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko2.png">
+                    <span class="emote-name">niko2</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko3.png">
+                    <span class="emote-name">niko3</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko4.png">
+                    <span class="emote-name">niko4</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko5.png">
+                    <span class="emote-name">niko5</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko6.png">
+                    <span class="emote-name">niko6</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko_83c.png">
+                    <span class="emote-name">niko_83c</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko_cry.png">
+                    <span class="emote-name">niko_cry</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko_distressed.png">
+                    <span class="emote-name">niko_distressed</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko_distressed2.png">
+                    <span class="emote-name">niko_distressed2</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko_distressed_meow.png">
+                    <span class="emote-name">niko_distressed_meow</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko_distressed_talk.png">
+                    <span class="emote-name">niko_distressed_talk</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko_eyeclosed.png">
+                    <span class="emote-name">niko_eyeclosed</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko_eyeclosed2.png">
+                    <span class="emote-name">niko_eyeclosed2</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko_gasmask.png">
+                    <span class="emote-name">niko_gasmask</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko_huh.png">
+                    <span class="emote-name">niko_huh</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko_less_sad.png">
+                    <span class="emote-name">niko_less_sad</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko_pancakes.png">
+                    <span class="emote-name">niko_pancakes</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko_sad.png">
+                    <span class="emote-name">niko_sad</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko_shock.png">
+                    <span class="emote-name">niko_shock</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko_smile.png">
+                    <span class="emote-name">niko_smile</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko_speak.png">
+                    <span class="emote-name">niko_speak</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko_surprised.png">
+                    <span class="emote-name">niko_surprised</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko_upset.png">
+                    <span class="emote-name">niko_upset</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko_upset2.png">
+                    <span class="emote-name">niko_upset2</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko_upset_meow.png">
+                    <span class="emote-name">niko_upset_meow</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko_what.png">
+                    <span class="emote-name">niko_what</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko_what2.png">
+                    <span class="emote-name">niko_what2</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko_wtf.png">
+                    <span class="emote-name">niko_wtf</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko_wtf2.png">
+                    <span class="emote-name">niko_wtf2</span>
+                </div>
+                <div class="emote-card">
+                    <img src="niko/niko_yawn.png">
+                    <span class="emote-name">niko_yawn</span>
+                </div>
+            </div>
+        </section>
+        <section class="character-block">
+            <div class="character-header">plight</div>
+            <div class="emote-grid">
+                <div class="emote-card">
+                    <img src="plight/plight.png">
+                    <span class="emote-name">plight</span>
+                </div>
+                <div class="emote-card">
+                    <img src="plight/plight3.png">
+                    <span class="emote-name">plight3</span>
+                </div>
+                <div class="emote-card">
+                    <img src="plight/plight_2.png">
+                    <span class="emote-name">plight_2</span>
+                </div>
+                <div class="emote-card">
+                    <img src="plight/plight_2b.png">
+                    <span class="emote-name">plight_2b</span>
+                </div>
+                <div class="emote-card">
+                    <img src="plight/plight_scared.png">
+                    <span class="emote-name">plight_scared</span>
+                </div>
+                <div class="emote-card">
+                    <img src="plight/plight_shock.png">
+                    <span class="emote-name">plight_shock</span>
+                </div>
+                <div class="emote-card">
+                    <img src="plight/plight_sigh.png">
+                    <span class="emote-name">plight_sigh</span>
+                </div>
+                <div class="emote-card">
+                    <img src="plight/plight_smile.png">
+                    <span class="emote-name">plight_smile</span>
+                </div>
+                <div class="emote-card">
+                    <img src="plight/plight_unknown.png">
+                    <span class="emote-name">plight_unknown</span>
+                </div>
+                <div class="emote-card">
+                    <img src="plight/plight_why.png">
+                    <span class="emote-name">plight_why</span>
+                </div>
+                <div class="emote-card">
+                    <img src="plight/plight_worry.png">
+                    <span class="emote-name">plight_worry</span>
+                </div>
+                <div class="emote-card">
+                    <img src="plight/plight_worry2.png">
+                    <span class="emote-name">plight_worry2</span>
+                </div>
+                <div class="emote-card">
+                    <img src="plight/plight_wtf.png">
+                    <span class="emote-name">plight_wtf</span>
+                </div>
+            </div>
+        </section>
+        <section class="character-block">
+            <div class="character-header">prophet</div>
+            <div class="emote-grid">
+                <div class="emote-card">
+                    <img src="prophet/prophet.png">
+                    <span class="emote-name">prophet</span>
+                </div>
+                <div class="emote-card">
+                    <img src="prophet/prophet_hmm.png">
+                    <span class="emote-name">prophet_hmm</span>
+                </div>
+                <div class="emote-card">
+                    <img src="prophet/prophet_omg.png">
+                    <span class="emote-name">prophet_omg</span>
+                </div>
+                <div class="emote-card">
+                    <img src="prophet/prophet_sigh.png">
+                    <span class="emote-name">prophet_sigh</span>
+                </div>
+            </div>
+        </section>
+        <section class="character-block">
+            <div class="character-header">proto</div>
+            <div class="emote-grid">
+                <div class="emote-card">
+                    <img src="proto/proto1.png">
+                    <span class="emote-name">proto1</span>
+                </div>
+                <div class="emote-card">
+                    <img src="proto/proto1b.png">
+                    <span class="emote-name">proto1b</span>
+                </div>
+                <div class="emote-card">
+                    <img src="proto/proto1c.png">
+                    <span class="emote-name">proto1c</span>
+                </div>
+                <div class="emote-card">
+                    <img src="proto/proto2.png">
+                    <span class="emote-name">proto2</span>
+                </div>
+                <div class="emote-card">
+                    <img src="proto/proto2b.png">
+                    <span class="emote-name">proto2b</span>
+                </div>
+                <div class="emote-card">
+                    <img src="proto/proto_disk.png">
+                    <span class="emote-name">proto_disk</span>
+                </div>
+                <div class="emote-card">
+                    <img src="proto/proto_eyeclosed.png">
+                    <span class="emote-name">proto_eyeclosed</span>
+                </div>
+                <div class="emote-card">
+                    <img src="proto/proto_gasp1.png">
+                    <span class="emote-name">proto_gasp1</span>
+                </div>
+                <div class="emote-card">
+                    <img src="proto/proto_gasp2.png">
+                    <span class="emote-name">proto_gasp2</span>
+                </div>
+                <div class="emote-card">
+                    <img src="proto/proto_jealous.png">
+                    <span class="emote-name">proto_jealous</span>
+                </div>
+            </div>
+        </section>
+        <section class="character-block">
+            <div class="character-header">red</div>
+            <div class="emote-grid">
+                <div class="emote-card">
+                    <img src="red/red_gatekeeper.png">
+                    <span class="emote-name">red_gatekeeper</span>
+                </div>
+            </div>
+        </section>
+        <section class="character-block">
+            <div class="character-header">rowbot</div>
+            <div class="emote-grid">
+                <div class="emote-card">
+                    <img src="rowbot/rowbot.png">
+                    <span class="emote-name">rowbot</span>
+                </div>
+                <div class="emote-card">
+                    <img src="rowbot/rowbot_off.png">
+                    <span class="emote-name">rowbot_off</span>
+                </div>
+            </div>
+        </section>
+        <section class="character-block">
+            <div class="character-header">rue</div>
+            <div class="emote-grid">
+                <div class="emote-card">
+                    <img src="rue/rue.png">
+                    <span class="emote-name">rue</span>
+                </div>
+                <div class="emote-card">
+                    <img src="rue/rue_dark.png">
+                    <span class="emote-name">rue_dark</span>
+                </div>
+                <div class="emote-card">
+                    <img src="rue/rue_oh.png">
+                    <span class="emote-name">rue_oh</span>
+                </div>
+                <div class="emote-card">
+                    <img src="rue/rue_sad.png">
+                    <span class="emote-name">rue_sad</span>
+                </div>
+                <div class="emote-card">
+                    <img src="rue/rue_sigh.png">
+                    <span class="emote-name">rue_sigh</span>
+                </div>
+                <div class="emote-card">
+                    <img src="rue/rue_smile.png">
+                    <span class="emote-name">rue_smile</span>
+                </div>
+                <div class="emote-card">
+                    <img src="rue/rue_talk.png">
+                    <span class="emote-name">rue_talk</span>
+                </div>
+                <div class="emote-card">
+                    <img src="rue/rue_ttt.png">
+                    <span class="emote-name">rue_ttt</span>
+                </div>
+            </div>
+        </section>
+        <section class="character-block">
+            <div class="character-header">shepherd</div>
+            <div class="emote-grid">
+                <div class="emote-card">
+                    <img src="shepherd/shepherd.png">
+                    <span class="emote-name">shepherd</span>
+                </div>
+            </div>
+        </section>
+        <section class="character-block">
+            <div class="character-header">silver</div>
+            <div class="emote-grid">
+                <div class="emote-card">
+                    <img src="silver/silver.png">
+                    <span class="emote-name">silver</span>
+                </div>
+                <div class="emote-card">
+                    <img src="silver/silver2.png">
+                    <span class="emote-name">silver2</span>
+                </div>
+                <div class="emote-card">
+                    <img src="silver/silver3.png">
+                    <span class="emote-name">silver3</span>
+                </div>
+                <div class="emote-card">
+                    <img src="silver/silver_eyeclosed.png">
+                    <span class="emote-name">silver_eyeclosed</span>
+                </div>
+                <div class="emote-card">
+                    <img src="silver/silver_falling.png">
+                    <span class="emote-name">silver_falling</span>
+                </div>
+                <div class="emote-card">
+                    <img src="silver/silver_getout.png">
+                    <span class="emote-name">silver_getout</span>
+                </div>
+                <div class="emote-card">
+                    <img src="silver/silver_lookup.png">
+                    <span class="emote-name">silver_lookup</span>
+                </div>
+                <div class="emote-card">
+                    <img src="silver/silver_rip.png">
+                    <span class="emote-name">silver_rip</span>
+                </div>
+                <div class="emote-card">
+                    <img src="silver/silver_rip0.png">
+                    <span class="emote-name">silver_rip0</span>
+                </div>
+                <div class="emote-card">
+                    <img src="silver/silver_rip2.png">
+                    <span class="emote-name">silver_rip2</span>
+                </div>
+                <div class="emote-card">
+                    <img src="silver/silver_square1.png">
+                    <span class="emote-name">silver_square1</span>
+                </div>
+                <div class="emote-card">
+                    <img src="silver/silver_square2.png">
+                    <span class="emote-name">silver_square2</span>
+                </div>
+                <div class="emote-card">
+                    <img src="silver/silver_worry.png">
+                    <span class="emote-name">silver_worry</span>
+                </div>
+            </div>
+        </section>
+        <section class="character-block">
+            <div class="character-header">watcher</div>
+            <div class="emote-grid">
+                <div class="emote-card">
+                    <img src="watcher/watcher.png">
+                    <span class="emote-name">watcher</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
